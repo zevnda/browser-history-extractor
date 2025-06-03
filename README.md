@@ -1,6 +1,6 @@
 # Browser History Extractor
 
-A TypeScript tool for extracting and analyzing browser history data from Firefox and Chrome browsers.
+A simple TypeScript tool for extracting and analyzing browser history data from Firefox and Chrome browsers.
 
 ## Installation
 
