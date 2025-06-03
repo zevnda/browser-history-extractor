@@ -1,0 +1,24 @@
+{
+  "name": "browser-history-extractor",
+  "version": "1.0.0",
+  "description": "A simple TypeScript tool for extracting and analyzing browser history data.",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start:firefox": "node dist/firefox.js",
+    "start:chrome": "node dist/chrome.js",
+    "dev:firefox": "ts-node src/firefox.ts",
+    "dev:chrome": "ts-node src/chrome.ts"
+  },
+  "author": "zevnda",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "better-sqlite3": "^11.10.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.15.29",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

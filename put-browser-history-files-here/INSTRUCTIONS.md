@@ -1,0 +1,1 @@
+Place your Firefox `places.sqlite` or Chrome `Hisotry` file in this directory
