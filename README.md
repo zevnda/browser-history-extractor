@@ -5,28 +5,28 @@ A TypeScript tool for extracting and analyzing browser history data from Firefox
 ## Installation
 
 1. Clone this repository
-```bash
-git clone https://github.com/zevnda/browser-history-extractor
-cd browser-history-extractor
-```
-1. Install dependencies:
-```bash
-npm install
-# or
-pnpm install
-```
-1. For Windows users:
-```
-npm install -global node-gyp
-cd node_modules\.pnpm\better-sqlite3@11.10.0\node_modules\better-sqlite3
-node-gyp rebuild
-```
-1. Build the project:
-```bash
-npm run build
-# or
-pnpm build
-```
+   ```bash
+   git clone https://github.com/zevnda/browser-history-extractor
+   cd browser-history-extractor
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   pnpm install
+   ```
+3. For Windows users:
+   ```bash
+   npm install -global node-gyp
+   cd node_modules\.pnpm\better-sqlite3@11.10.0\node_modules\better-sqlite3
+   node-gyp rebuild
+   ```
+4. Build the project:
+   ```bash
+   npm run build
+   # or
+   pnpm build
+   ```
 
 ## Usage
 
