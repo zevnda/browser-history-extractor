@@ -4,16 +4,11 @@ A simple TypeScript tool for extracting and analyzing browser history data from 
 
 ## Installation
 
-1. Clone this repository
+1. Clone the repo and install dependencies
    ```bash
    git clone https://github.com/zevnda/browser-history-extractor
    cd browser-history-extractor
-   ```
-2. Install dependencies:
-   ```bash
    npm install
-   # or
-   pnpm install
    ```
 3. For Windows users:
    ```bash
@@ -24,8 +19,6 @@ A simple TypeScript tool for extracting and analyzing browser history data from 
 4. Build the project:
    ```bash
    npm run build
-   # or
-   pnpm build
    ```
 
 ## Usage
@@ -38,8 +31,6 @@ A simple TypeScript tool for extracting and analyzing browser history data from 
 3. Run:
    ```bash
    npm run start:firefox
-   # or
-   pnpm start:firefox
    ```
 
 ### Chrome History
@@ -50,8 +41,6 @@ A simple TypeScript tool for extracting and analyzing browser history data from 
 3. Run:
    ```bash
    npm run start:chrome
-   # or
-   pnpm start:chrome
    ```
 
 ## Output
